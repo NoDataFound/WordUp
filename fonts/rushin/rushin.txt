@@ -1,0 +1,30 @@
+Font: Rushin'
+Created By: Matthew Welch
+E-Mail: matt@squaregear.net
+Web Address: http://www.squaregear.net/fonts/
+
+My fonts are all free.  You can use them for personal or commercial projects,
+and I ask for no money.  I would, however, love to hear from you.  If you use
+my fonts for something please e-mail me letting me know how you used it.  Send
+me a copy if you can or let me know where I can find your work. You are under
+no obligation to do this, I just like to see how my fonts get used.
+
+A license.txt file should have been included with this font, explaining the
+license under which it is made available. You can also read it at:
+
+http://www.squaregear.net/fonts/license.shtml
+
+About the font:
+
+Have you ever seen some Russian writing and tried to pronounce it
+like it looks, even though you know probably none of those letters
+are pronounced like the Latin alphabet letter they look like?
+That is what this font is based on.  I took all the Cyrillic letters
+and matched them up with the Latin alphabet letters they look like.
+I threw out all the Cyrillic letters that didn't look like anything
+and filled in the remaining characters with the regular Latin
+alphabet.  The result is that you can type out a phrase and it will
+look like Cyrillic lettering while being perfectly readable English.
+
+If you like this font see Ancient Geek, my font based on the Greek
+letters.
