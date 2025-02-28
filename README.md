@@ -17,5 +17,6 @@
                                 ||     ||
 
 ```
+![](https://github.com/NoDataFound/WordUp/raw/main/STRIKE.png)
 ![](https://github.com/NoDataFound/WordUp/raw/main/output/russia_speech_wordcloud.png)
 ![](https://raw.githubusercontent.com/NoDataFound/WordUp/main/output/AjzMrDla0OA.png)
