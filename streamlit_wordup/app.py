@@ -111,7 +111,7 @@ def reset_section(keys):
 
 logo_path = (ASSETS_DIR / "wordup.png")
 if logo_path.exists():
-    st.sidebar.image(str(logo_path), use_container_width=True)
+    st.sidebar.image(str(logo_path), width='content')
 
 def _add_paste_to_pool():
     buf = st.session_state.get("paste_buffer", "").strip()
