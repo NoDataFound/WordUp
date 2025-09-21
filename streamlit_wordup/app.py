@@ -94,7 +94,7 @@ def reset_section(keys):
         if k in DEFAULTS:
             st.session_state[k] = DEFAULTS[k]
 
-st.sidebar.image("assets/wordup.png")
+st.sidebar.image("https://raw.githubusercontent.com/NoDataFound/WordUp/refs/heads/streamlit/streamlit_wordup/assets/wordup.png")
 
 def _add_paste_to_pool():
     buf = st.session_state.get("paste_buffer", "").strip()
