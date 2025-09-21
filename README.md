@@ -1,4 +1,7 @@
+<img width="1385" height="981" alt="wordup" src="https://github.com/user-attachments/assets/24d576cb-52de-4042-b28c-f36c9cd9ca48" />
+
 ```
+
    ________  ________  ________   _______  ________  ________ 
   ╱  ╱  ╱  ╲╱        ╲╱        ╲_╱       ╲╱    ╱   ╲╱        ╲
  ╱         ╱         ╱         ╱         ╱         ╱         ╱
