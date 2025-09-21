@@ -1,0 +1,6 @@
+streamlit
+pillow
+numpy
+scipy
+wordcloud
+python-dotenv
