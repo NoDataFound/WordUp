@@ -15,6 +15,20 @@ from utils import (
     recolor_image,
     add_background,
 )
+from pathlib import Path
+import tempfile
+import uuid
+
+APP_DIR = Path(__file__).resolve().parent
+ASSETS_DIR = APP_DIR / "assets"
+FONTS_DIR = ASSETS_DIR / "fonts"
+
+if "session_uid" not in st.session_state:
+    st.session_state.session_uid = uuid.uuid4().hex
+if "paste_nonce" not in st.session_state:
+    st.session_state.paste_nonce = 0
+
+
 
 load_dotenv()
 
@@ -26,10 +40,11 @@ logging.basicConfig(
 st.set_page_config(page_title="WordUp - Words into things", layout="wide")
 
 DEFAULT_FONTS = {
-    "Hacker": "assets/fonts/Hacker.ttf",
-    "OpenSans": "assets/fonts/OpenSans.ttf",
-    "Rushin": "assets/fonts/rushin.ttf",
+    "Hacker": str((FONTS_DIR / "Hacker.ttf").resolve()),
+    "OpenSans": str((FONTS_DIR / "OpenSans.ttf").resolve()),
+    "Rushin": str((FONTS_DIR / "rushin.ttf").resolve()),
 }
+
 
 DEFAULTS = {
     "max_words": 100000,
@@ -94,7 +109,9 @@ def reset_section(keys):
         if k in DEFAULTS:
             st.session_state[k] = DEFAULTS[k]
 
-st.sidebar.image("https://raw.githubusercontent.com/NoDataFound/WordUp/refs/heads/streamlit/streamlit_wordup/assets/wordup.png")
+logo_path = (ASSETS_DIR / "wordup.png")
+if logo_path.exists():
+    st.sidebar.image(str(logo_path), use_container_width=True)
 
 def _add_paste_to_pool():
     buf = st.session_state.get("paste_buffer", "").strip()
@@ -189,17 +206,24 @@ with st.sidebar:
         )
 
         def resolve_font_path():
-            if font_pick == "Uploaded" and uploaded_font is not None:
-                tmp_path = safe_join("assets", "fonts", "_session_font.ttf")
-                ensure_dir(safe_join("assets", "fonts"))
+            if uploaded_font is not None and font_pick == "Uploaded":
+                tmp_dir = Path(tempfile.gettempdir())
+                tmp_path = tmp_dir / f"wordup_font_{st.session_state.session_uid}.ttf"
                 with open(tmp_path, "wb") as f:
                     f.write(uploaded_font.read())
-                return tmp_path
+                return str(tmp_path)
+        
             if font_pick in DEFAULT_FONTS:
                 return DEFAULT_FONTS[font_pick]
+        
             return None
 
+
         font_path = resolve_font_path()
+        if font_path and not Path(font_path).exists():
+            st.warning(f"Font not found at {font_path}. Using default font.")
+            font_path = None  
+
 
         if st.button("Reset defaults - Font selection", width='stretch'):
             reset_section(["bundled_choices", "font_pick"])
