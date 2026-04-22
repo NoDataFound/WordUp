@@ -1,0 +1,38 @@
+     OPERATION WRTHUG — Thousands of ASUS Routers Hijacked
+            in Global Campaign — STRIKE by SecurityScorecar
+                d — China Nexus ORB — CVE-2023-41345 CVE-2023
+                    -41346 CVE-2023-41347 CVE-2023-41348 CVE-20
+                      24-12912 CVE-2025-2492 — AiCloud exploit on
+                          End-of-Life ASUS WRT routers — Self-sign                                                                                          ed
+                          TLS cert SHA1:1894a6800dff523894eba7f31cea                                               8d05d51032b4 — 100-year expiration April 20
+                            22 — CN=a OU=a O=a L=a ST=a C=aa — 30-50%                                            targeting Taiwan — SE Asia Russia Europe
+                             United States — 50000 unique IPs compromise                                       d worldwide — AyySSHush connection — CVE
+                              -2023-39780 cmd injection — SSH port 53282 —                                    Only 7 dual-compromised IPs — lighttpd
+                              1.4.29 — Apache httpd 2.0 — 4G-AC55U DSL-AC68                               U GT-AC5300 GT-AX11000 RT-AC1200HP RT-AC1
+                              300UHP — Operational Relay Box — LapDogs ORB —                            ViciousTrap — CISA KEV — Nth day vulns — T
+                              oken module filtering — OS cmd injection — Improp                       er auth control — Arbitrary cmd exec — SOHO
+                                 routers under siege — Persistent backdoors via S                  SH — Mu     lti-stage infections — No post-ex
+                                       ploit patching — door left open — IOC 46.13               2.187.8        5 221.43.126.86 122.100.210.209
+                                            59.26.66.44 195.234.71.218 — State-spons                             ored espionage infrastructure
+                                              global reach — Shields up 2025 — Update                                 firmware — Replace EoL —
+                                                Disable AiCloud — OPERATION WRTHUG — Tho                                usands of ASUS Routers
+                                                  Hijacked in Global Campaign — STRIKE by                                 SecurityScorecard — Ch
+                                                   ina Nexus ORB — CVE-2023-41345 CVE-2023-                                  41346 CVE-2023-4134
+                                                    7 CVE-2023-41348 CVE-2024-12912 CVE-2025-                                   2492 — AiCloud ex
+                                                     ploit on End-of-Life ASUS WRT routers — Se                              lf-signed TLS cert SHA
+                                                     1:1894a6800dff523894eba7f31cea8d05d51032b4                          — 100-year expiration April
+                                                     2022 — CN=a OU=a O=a L=a ST=a C=aa — 30-50% targeting Taiwan — SE Asia Russia Europe United Stat
+                                                     es — 50000 unique IPs compromised worldwide — AyySSHush connection — CVE-2023-39780 cmd
+                                                     injection — SSH port 53282 — Only 7 dual-compromised IPs — lighttpd 1.4.29 — Apache
+                                                       httpd 2.0 — 4G-AC55U DSL-AC68U GT-AC5300 GT-AX11000 RT-AC1200HP RT-AC1300UHP
+                                                               — Operational Relay Box — LapDogs ORB — ViciousTrap — CISA KEV — N
+                                                                    th day vulns — Token module filtering — OS cmd injection —
+                                                                        Improper auth control — Arbitrary cmd exec — SOHO r
+                                                                         outers under siege — Persistent backdoors via SS
+                                                                           H — Multi-stage infections — No post-exploit
+                                                                             patching — door left open — IOC 46.132.1
+                                                                            87.85 221.43.126.86 122.100.210.209 59.
+                                                                            26.66.44 195.234.71.218 — State-sponso
+                                                                            red espionage infrastructure global
+                                                                           reach — Shields up 2025 — Update fir
+                                                                          mware — Replace EoL — Disable AiClou
